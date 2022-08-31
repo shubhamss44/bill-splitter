@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import Header from "./Bootstraps/Header";
+import React, { Component } from "react";
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-        Hello
+        <Header dark={true} headerClassName="justify-content-center">Bill-Splitter</Header>
       </div>
-
-    )
+    );
   }
 }
 export default App;
